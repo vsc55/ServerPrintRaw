@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{856AF9A2-BF4E-489B-A608-F3F4D3358380}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LibCore</RootNamespace>
+    <AssemblyName>LibCore</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DocumentationFile>LibCore.xml</DocumentationFile>
+    <DefineConstants>
+    </DefineConstants>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DocumentationFile>LibCore.xml</DocumentationFile>
+    <DefineConstants>_MYFORMS=True</DefineConstants>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=2.0.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.15\lib\net40\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\frmAboutBox.Designer.vb">
+      <DependentUpon>frmAboutBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAboutBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmConfig.Designer.vb">
+      <DependentUpon>frmConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmKernel.Designer.vb">
+      <DependentUpon>frmKernel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmKernel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPruebas.Designer.vb">
+      <DependentUpon>frmPruebas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPruebas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Libs\Controls\ListView\ListView_Column_AutoSize.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\Controls\ListView\ListView_Order.vb" />
+    <Compile Include="Libs\Controls\ReadDoc.Designer.vb">
+      <DependentUpon>ReadDoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Libs\Controls\ReadDoc.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Libs\Controls\ToolStrip\ClsToolStrip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\Controls\ToolStrip\ClsToolStripButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\Controls\ToolStrip\ClsToolStripProfessionalRenderer.vb" />
+    <Compile Include="Libs\Controls\ToolStrip\ClsToolStripTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\MySettings\SettingsProvider.vb" />
+    <Compile Include="Libs\MySettings\StoreSetting.vb" />
+    <Compile Include="Libs\Print\PrintHelper.vb" />
+    <Compile Include="Libs\Print\RawPrinterHelper.vb" />
+    <Compile Include="Modules\LaunchApp.vb" />
+    <Compile Include="Libs\Config.vb" />
+    <Compile Include="Libs\Server\TCP\Client.vb" />
+    <Compile Include="Libs\Server\TCP\Server.vb" />
+    <Compile Include="Libs\Stoprage\StorePrint.vb" />
+    <Compile Include="Modules\modGlobal.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="Libs\TrayIcon.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\frmAboutBox.resx">
+      <DependentUpon>frmAboutBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmConfig.resx">
+      <DependentUpon>frmConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmKernel.resx">
+      <DependentUpon>frmKernel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPruebas.resx">
+      <DependentUpon>frmPruebas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\Controls\ReadDoc.resx">
+      <DependentUpon>ReadDoc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print-48_45058-stop.ico" />
+    <None Include="Resources\print-48_45058-service.ico" />
+    <None Include="Resources\print-48_45058-run.ico" />
+    <None Include="Icons\Folder-Explore.ico" />
+    <None Include="Icons\magnifier-icone-7459.ico" />
+    <None Include="Icons\magnifier-icone-7459-16.png" />
+    <None Include="Icons\magnifier-icone-7459-32.png" />
+    <None Include="Icons\cache-icone-8420-16.png" />
+    <None Include="Icons\cache-icone-8420-32.png" />
+    <None Include="Icons\no-icone-6912-16.png" />
+    <None Include="Icons\no-icone-6912-32.png" />
+    <None Include="Icons\arrows-interact-reload-update-icone-7487-16.png" />
+    <None Include="Icons\arrows-interact-reload-update-icone-7487-32.png" />
+    <None Include="Icons\Folder-Explore.png" />
+    <None Include="Icons\aceptar-verde-ok-si-icono-8925-32.png" />
+    <None Include="Icons\assistant-icone-8863-32.png" />
+    <None Include="Icons\assistant-icone-8863-48.png" />
+    <None Include="Icons\configure-icone-8409-48.png" />
+    <None Include="Icons\folder_settings_tools_22597.png" />
+    <None Include="Icons\onebit-icone-3921-32.png" />
+    <None Include="Icons\file_cab_15475.png" />
+    <None Include="Icons\aboutbox-gradian.png" />
+    <None Include="Icons\gui_regex_icon_158395-16.png" />
+    <None Include="Icons\iconfinder-document03-1622833_121957-16.png" />
+    <None Include="Icons\iconfinder-document03-1622833_121957 - 32.png" />
+    <None Include="Icons\print-48_45058-green.ico" />
+    <None Include="Icons\print-48_45058-red.ico" />
+    <Content Include="Icons\print-48_45058.ico" />
+    <None Include="Icons\refresh-reload-all-tabs-icone-4270-16.png" />
+    <None Include="Icons\refresh-reload-all-tabs-icone-4270-32.png" />
+    <None Include="Icons\seleccione-ver-icono-5723-16.png" />
+    <None Include="Icons\seleccione-ver-icono-5723-32.png" />
+    <None Include="Icons\view-full-list-icone-6722-16.png" />
+    <None Include="Icons\view-full-list-icone-6722-32.png" />
+    <None Include="Icons\stop-icone-9406-32.png" />
+    <None Include="Icons\undo-icone-4366-32.png" />
+    <None Include="Icons\warning-information-icone-6791-32.png" />
+    <None Include="Icons\undo-icone-4366-16.png" />
+    <Content Include="Info.txt" />
+    <None Include="Resources\print-48_45058.ico" />
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
