@@ -127,11 +127,8 @@
   <data name="arrows-interact-reload-update-icone-7487-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icons\arrows-interact-reload-update-icone-7487-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="seleccione-ver-icono-5723-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icons\seleccione-ver-icono-5723-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gui_regex_icon_158395-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icons\gui_regex_icon_158395-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TrayIcon_Run" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print-48_45058-run.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="no-icone-6912-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icons\no-icone-6912-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,11 +136,17 @@
   <data name="no-icone-6912-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icons\no-icone-6912-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="aceptar-verde-ok-si-icono-8925-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icons\aceptar-verde-ok-si-icono-8925-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="file_cab_15475" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\file_cab_15475.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cache-icone-8420-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icons\cache-icone-8420-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exportacion-icono-5880-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exportacion-icono-5880-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconfinder-document03-1622833_121957 - 32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\iconfinder-document03-1622833_121957 - 32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cache-icone-8420-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icons\cache-icone-8420-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,8 +154,14 @@
   <data name="magnifier-icone-7459-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icons\magnifier-icone-7459-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="refresh-reload-all-tabs-icone-4270-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\refresh-reload-all-tabs-icone-4270-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="undo-icone-4366-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icons\undo-icone-4366-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="view-full-list-icone-6722-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\view-full-list-icone-6722-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="assistant-icone-8863-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icons\assistant-icone-8863-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,8 +175,8 @@
   <data name="folder_settings_tools_22597" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icons\folder_settings_tools_22597.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="file_cab_15475" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icons\file_cab_15475.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="gui_regex_icon_158395-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\gui_regex_icon_158395-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="warning-information-icone-6791-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icons\warning-information-icone-6791-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,8 +187,8 @@
   <data name="view-full-list-icone-6722-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icons\view-full-list-icone-6722-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="view-full-list-icone-6722-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icons\view-full-list-icone-6722-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TrayIcon_Service" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print-48_45058-service.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="assistant-icone-8863-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icons\assistant-icone-8863-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,8 +199,14 @@
   <data name="seleccione-ver-icono-5723-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icons\seleccione-ver-icono-5723-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="refresh-reload-all-tabs-icone-4270-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icons\refresh-reload-all-tabs-icone-4270-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="seleccione-ver-icono-5723-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\seleccione-ver-icono-5723-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aceptar-verde-ok-si-icono-8925-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\aceptar-verde-ok-si-icono-8925-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TrayIcon_Stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print-48_45058-stop.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconfinder-document03-1622833_121957-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icons\iconfinder-document03-1622833_121957-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,16 +223,7 @@
   <data name="onebit-icone-3921-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icons\onebit-icone-3921-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconfinder-document03-1622833_121957 - 32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icons\iconfinder-document03-1622833_121957 - 32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TrayIcon_Run" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\print-48_45058-run.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TrayIcon_Service" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\print-48_45058-service.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TrayIcon_Stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\print-48_45058-stop.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="exportacion-icono-5880-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exportacion-icono-5880-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

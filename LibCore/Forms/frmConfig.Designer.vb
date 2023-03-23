@@ -61,9 +61,10 @@ Partial Class frmConfig
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.iTxtPort = New System.Windows.Forms.NumericUpDown()
         Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.btnReload = New System.Windows.Forms.Button()
         Me.btnCancel = New System.Windows.Forms.Button()
+        Me.btnReload = New System.Windows.Forms.Button()
         Me.btnSave = New System.Windows.Forms.Button()
+        Me.btnSaveExit = New System.Windows.Forms.Button()
         Me.BoxInfo = New System.Windows.Forms.ToolTip(Me.components)
         Me.TableLayoutMain.SuspendLayout()
         Me.PanelTop.SuspendLayout()
@@ -606,9 +607,10 @@ Partial Class frmConfig
         'FlowLayoutPanel2
         '
         Me.FlowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(77, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(130, Byte), Integer))
-        Me.FlowLayoutPanel2.Controls.Add(Me.btnReload)
         Me.FlowLayoutPanel2.Controls.Add(Me.btnCancel)
+        Me.FlowLayoutPanel2.Controls.Add(Me.btnReload)
         Me.FlowLayoutPanel2.Controls.Add(Me.btnSave)
+        Me.FlowLayoutPanel2.Controls.Add(Me.btnSaveExit)
         Me.FlowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.FlowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft
         Me.FlowLayoutPanel2.Location = New System.Drawing.Point(3, 244)
@@ -616,23 +618,6 @@ Partial Class frmConfig
         Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
         Me.FlowLayoutPanel2.Size = New System.Drawing.Size(774, 50)
         Me.FlowLayoutPanel2.TabIndex = 2
-        '
-        'btnReload
-        '
-        Me.btnReload.AutoSize = True
-        Me.btnReload.BackColor = System.Drawing.Color.FromArgb(CType(CType(77, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(130, Byte), Integer))
-        Me.btnReload.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(77, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(130, Byte), Integer))
-        Me.btnReload.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnReload.ForeColor = System.Drawing.SystemColors.Info
-        Me.btnReload.Image = Global.LibCore.My.Resources.Resources.undo_icone_4366_32
-        Me.btnReload.Location = New System.Drawing.Point(676, 3)
-        Me.btnReload.Name = "btnReload"
-        Me.btnReload.Size = New System.Drawing.Size(95, 44)
-        Me.btnReload.TabIndex = 7
-        Me.btnReload.Text = "R&ecargar"
-        Me.btnReload.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.BoxInfo.SetToolTip(Me.btnReload, "Recarga los ajustes")
-        Me.btnReload.UseVisualStyleBackColor = False
         '
         'btnCancel
         '
@@ -643,7 +628,7 @@ Partial Class frmConfig
         Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCancel.ForeColor = System.Drawing.SystemColors.Info
         Me.btnCancel.Image = Global.LibCore.My.Resources.Resources.stop_icone_9406_32
-        Me.btnCancel.Location = New System.Drawing.Point(577, 3)
+        Me.btnCancel.Location = New System.Drawing.Point(678, 3)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(93, 44)
         Me.btnCancel.TabIndex = 6
@@ -652,21 +637,54 @@ Partial Class frmConfig
         Me.BoxInfo.SetToolTip(Me.btnCancel, "Cancela los cambios y cierra la ventana de configuración")
         Me.btnCancel.UseVisualStyleBackColor = False
         '
+        'btnReload
+        '
+        Me.btnReload.AutoSize = True
+        Me.btnReload.BackColor = System.Drawing.Color.FromArgb(CType(CType(77, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(130, Byte), Integer))
+        Me.btnReload.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(77, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(130, Byte), Integer))
+        Me.btnReload.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnReload.ForeColor = System.Drawing.SystemColors.Info
+        Me.btnReload.Image = Global.LibCore.My.Resources.Resources.undo_icone_4366_32
+        Me.btnReload.Location = New System.Drawing.Point(577, 3)
+        Me.btnReload.Name = "btnReload"
+        Me.btnReload.Size = New System.Drawing.Size(95, 44)
+        Me.btnReload.TabIndex = 7
+        Me.btnReload.Text = "R&ecargar"
+        Me.btnReload.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.BoxInfo.SetToolTip(Me.btnReload, "Recarga los ajustes")
+        Me.btnReload.UseVisualStyleBackColor = False
+        '
         'btnSave
         '
         Me.btnSave.AutoSize = True
         Me.btnSave.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(77, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(130, Byte), Integer))
         Me.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSave.ForeColor = System.Drawing.SystemColors.Info
-        Me.btnSave.Image = Global.LibCore.My.Resources.Resources.aceptar_verde_ok_si_icono_8925_32
-        Me.btnSave.Location = New System.Drawing.Point(482, 3)
+        Me.btnSave.Image = Global.LibCore.My.Resources.Resources.exportacion_icono_5880_32
+        Me.btnSave.Location = New System.Drawing.Point(466, 3)
         Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(89, 44)
+        Me.btnSave.Size = New System.Drawing.Size(105, 44)
         Me.btnSave.TabIndex = 5
         Me.btnSave.Text = "&Guardar"
         Me.btnSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.BoxInfo.SetToolTip(Me.btnSave, "Guarda los cambios y cierra la ventana de configuración")
         Me.btnSave.UseVisualStyleBackColor = True
+        '
+        'btnSaveExit
+        '
+        Me.btnSaveExit.AutoSize = True
+        Me.btnSaveExit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(77, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(130, Byte), Integer))
+        Me.btnSaveExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSaveExit.ForeColor = System.Drawing.SystemColors.Info
+        Me.btnSaveExit.Image = Global.LibCore.My.Resources.Resources.aceptar_verde_ok_si_icono_8925_32
+        Me.btnSaveExit.Location = New System.Drawing.Point(340, 3)
+        Me.btnSaveExit.Name = "btnSaveExit"
+        Me.btnSaveExit.Size = New System.Drawing.Size(120, 44)
+        Me.btnSaveExit.TabIndex = 8
+        Me.btnSaveExit.Text = "Guardar y &Salir"
+        Me.btnSaveExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.BoxInfo.SetToolTip(Me.btnSaveExit, "Guarda los cambios y cierra la ventana de configuración")
+        Me.btnSaveExit.UseVisualStyleBackColor = True
         '
         'BoxInfo
         '
@@ -759,4 +777,5 @@ Partial Class frmConfig
     Friend WithEvents btnDefaultPort As Button
     Friend WithEvents btnDefaultIP As Button
     Friend WithEvents BoxInfo As ToolTip
+    Friend WithEvents btnSaveExit As Button
 End Class

@@ -72,7 +72,7 @@
       <HintPath>..\packages\log4net.2.0.15\lib\net40\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -214,6 +214,8 @@
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\exportacion-icono-5880-32.png" />
+    <None Include="Resources\exportacion-icono-5880-48.png" />
     <None Include="Resources\print-48_45058-stop.ico" />
     <None Include="Resources\print-48_45058-service.ico" />
     <None Include="Resources\print-48_45058-run.ico" />

@@ -1,4 +1,5 @@
-﻿Imports System.Reflection
+﻿Imports System.IO
+Imports System.Reflection
 Imports System.Text.RegularExpressions
 
 Namespace Core.Store
@@ -120,6 +121,8 @@ Namespace Core.Store
             End If
             logger.InfoFormat("{0} - ID Doc: {1}", clientID, id)
 
+            'Limpiar el ID de caracteres no soportados en el nombre del archivo.
+            id = Me.CleanFileNameInvalidChars(id, Cfg.CharInvalidRemplace())
 
             Dim sNameFile As String = ""
             Dim sFullPath As String = ""
@@ -141,6 +144,15 @@ Namespace Core.Store
                 logger.Error(ex.Message, ex)
             End Try
         End Sub
+
+        Private Function CleanFileNameInvalidChars(ByVal sFileName As String, Optional ByVal charRemplace As String = "") As String
+            Dim charsInvalid() As Char = Path.GetInvalidFileNameChars()
+            Dim sReutn As String = sFileName
+            For Each c As Char In charsInvalid
+                sReutn = sReutn.Replace(c, charRemplace)
+            Next
+            Return sReutn
+        End Function
 
     End Class
 

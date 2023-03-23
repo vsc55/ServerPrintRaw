@@ -20,6 +20,7 @@
             Me.Path = Me.DefaultPath
             Me.StorePrintTemplateID = Me.DefaultStorePrintTemplateID
             Me.RegexSearchID = Me.DefaultRegexSearchID
+            Me.CharInvalidRemplace = Me.DefaultCharInvalidRemplace()
         End Sub
 
 
@@ -167,6 +168,23 @@
         Public ReadOnly Property DefaultRegexSearchID As String
             Get
                 Return My.Settings.DefaultRegexSearchID
+            End Get
+        End Property
+#End Region
+
+#Region "Prop::CharInvalidRemplace"
+        Public Property CharInvalidRemplace As String
+            Get
+                Me.Reload()
+                Return My.Settings.CharInvalidRemplace
+            End Get
+            Set(value As String)
+                My.Settings.CharInvalidRemplace = IIf(IsNothing(value), Me.DefaultCharInvalidRemplace, Trim(value))
+            End Set
+        End Property
+        Public ReadOnly Property DefaultCharInvalidRemplace
+            Get
+                Return My.Settings.DefaultCharInvalidRemplace
             End Get
         End Property
 #End Region

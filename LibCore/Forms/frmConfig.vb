@@ -142,6 +142,10 @@ Public Class frmConfig
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        Call SaveConfig()
+    End Sub
+
+    Private Sub btnSaveExit_Click(sender As Object, e As EventArgs) Handles btnSaveExit.Click
         Me.DialogResult = DialogResult.OK
         Call SaveConfig()
     End Sub
@@ -204,5 +208,4 @@ Public Class frmConfig
     Private Sub btnDefaultRegEx_Click(sender As Object, e As EventArgs) Handles btnDefaultRegEx.Click
         Me.sRegExGetID.Text = Cfg.DefaultRegexSearchID
     End Sub
-
 End Class
