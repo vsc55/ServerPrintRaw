@@ -25,4 +25,11 @@ Public NotInheritable Class frmAboutBox
         Me.Close()
     End Sub
 
+    Private Sub PictureBox2_DoubleClick(sender As Object, e As EventArgs) Handles PictureBox2.DoubleClick
+
+        Dim winDebug As New frmDebug()
+        winDebug.Show()
+
+    End Sub
+
 End Class

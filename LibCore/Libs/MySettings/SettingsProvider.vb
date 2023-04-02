@@ -3,6 +3,7 @@ Imports System.Reflection
 Imports Newtonsoft.Json
 
 
+'No implementado
 'Basado en: https://www.vbforums.com/showthread.php?754687-RESOLVED-Saving-My-Settings-in-user-defined-path
 
 Namespace CerebelumLib.MySettings

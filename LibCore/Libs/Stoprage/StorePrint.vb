@@ -112,9 +112,11 @@ Namespace Core.Store
             logger.DebugFormat("{0} - Buscando ID en documento...", clientID)
             Dim id As String = ""
             Dim sRegEx As String = Me.IDRefSearch
-            If Not IsNothing(sRegEx) AndAlso sRegEx.GetType.Equals(GetType(String)) AndAlso sRegEx <> String.Empty Then
-                id = Me.FindID(sRegEx, strData, clientID)
-            End If
+
+            'If Not IsNothing(sRegEx) AndAlso sRegEx.GetType.Equals(GetType(String)) AndAlso sRegEx <> String.Empty Then
+            id = Me.FindID(sRegEx, strData, clientID)
+            'End If
+
             If id = String.Empty Then
                 id = Me.GenerarID()
                 logger.WarnFormat("{0} - ¡No se ha localizado el ID en el documento, se ha generado uno automaticamente!", clientID)

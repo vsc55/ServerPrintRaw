@@ -2,13 +2,13 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
   <Profiles />
   <Settings>
-    <Setting Name="AutoStart" Type="System.Boolean" Scope="User">
+    <Setting Name="AutoStart" Roaming="true" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
-    <Setting Name="Path" Type="System.String" Scope="User">
+    <Setting Name="Path" Roaming="true" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="Address" Type="System.String" Scope="User">
+    <Setting Name="Address" Roaming="true" Type="System.String" Scope="User">
       <Value Profile="(Default)">0.0.0.0</Value>
     </Setting>
     <Setting Name="DefaultPort" Type="System.Int32" Scope="Application">
@@ -20,26 +20,26 @@
     <Setting Name="DefaultAutoStart" Type="System.Boolean" Scope="Application">
       <Value Profile="(Default)">False</Value>
     </Setting>
-    <Setting Name="StorePrintTemplateID" Type="System.String" Scope="User">
+    <Setting Name="StorePrintTemplateID" Roaming="true" Type="System.String" Scope="User">
       <Value Profile="(Default)">yyyyMMddhhmmssfff</Value>
     </Setting>
     <Setting Name="DefaultStorePrintTemplateID" Type="System.String" Scope="Application">
       <Value Profile="(Default)">yyyyMMddhhmmssfff</Value>
     </Setting>
-    <Setting Name="Port" Type="System.Int32" Scope="User">
+    <Setting Name="Port" Roaming="true" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">9100</Value>
     </Setting>
-    <Setting Name="RegexSearchID" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Tipo de(\s*.*)\: modo usuario</Value>
-    </Setting>
-    <Setting Name="DefaultRegexSearchID" Type="System.String" Scope="Application">
+    <Setting Name="RegexSearchID" Roaming="true" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="CharInvalidRemplace" Type="System.String" Scope="User">
+    <Setting Name="DefaultRegexSearchID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">(?&lt;=^|\n|\t)\s*Pruba:\s+(Express\s\d{2}:\d{2}|\d{4}\s\d{2}\s\d{2})(?=\s|$)</Value>
+    </Setting>
+    <Setting Name="CharInvalidRemplace" Roaming="true" Type="System.String" Scope="User">
       <Value Profile="(Default)">_</Value>
     </Setting>
     <Setting Name="DefaultCharInvalidRemplace" Type="System.String" Scope="Application">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">_</Value>
     </Setting>
   </Settings>
 </SettingsFile>
